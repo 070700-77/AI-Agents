@@ -15,6 +15,11 @@ A collection of conversational AI agents built with Python, LiteLLM, and the Ant
 | [Finance Analyst](./finance-analyst-agent/) | Warren — Financial analyst (CLI + Web) | Yahoo Finance API | Anthropic + RapidAPI |
 | [Flight Finder](./flight-finder-agent/) | Valya — Travel & booking assistant | Google Flights API | Anthropic + RapidAPI |
 | [Cacao Expert](./cocoa-expert-agent/) | Jose — Colombian cacao data expert | datos.gov.co API | Anthropic |
+| [Fitness Advisor](./fitness-advisor-agent/) | Leyla — Fitness & health metrics advisor | 15 Health Calculator endpoints | Anthropic + RapidAPI |
+| [Finance Teacher](./finance-teacher-agent/) | Private finance tutor (Spanish) | Company overview, income statement, balance sheet, cash flow | Anthropic + RapidAPI |
+| [Bible Expert](./bible-expert-agent/) | Yeshúa — Bible study guide | Verse range, chapter, word/phrase search, passage of the day | Anthropic + RapidAPI |
+| [Earthquake Analyzer](./earthquake-analyzer-agent/) | Topo — Seismology assistant | Recent earthquakes with geo/magnitude filters | Anthropic + RapidAPI |
+| [Finance Analyst (Full)](./finance-analyst-full-agent/) | Investment committee analyst | Full Yahoo Finance API (quotes, options, indicators, news) | Anthropic + RapidAPI |
 
 ---
 
@@ -110,7 +115,12 @@ AI-Agents/
 │   ├── .env.example
 │   └── .gitignore
 ├── flight-finder-agent/
-└── cocoa-expert-agent/
+├── cocoa-expert-agent/
+├── fitness-advisor-agent/
+├── finance-teacher-agent/
+├── bible-expert-agent/
+├── earthquake-analyzer-agent/
+└── finance-analyst-full-agent/
 ```
 
 ---
